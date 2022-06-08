@@ -1,0 +1,3 @@
+hello world this i parishkar singh 
+this is python program
+the data in the file will be read by and shown by 

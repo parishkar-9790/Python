@@ -1,0 +1,121 @@
+Id,Quantity,ItemCost,CITY,First,Last,PurchaseValue
+10107,30,95.7,NYC,Kwai,Yu,2871
+10121,34,81.35,Reims,Paul,Henriot,2765.9
+10134,41,94.74,Paris,Daniel,Da Cunha,7000.34
+10145,45,83.26,Pasadena,Julie,Young,3746.7
+10159,49,106.23,San Francisco,Julie,Brown,5205.27
+10168,36,96.66,Burlingame,Juri,Hirano,1479.76
+10180,29,86.13,Lille,Martine,Rance,2497.77
+10188,48,114.84,Bergen,Veysel,Oeztan,5512.32
+10201,22,98.57,San Francisco,Julie,Murphy,1268.54
+10211,41,25.6097561,Paris,Dominique,Perrier,1050
+10223,37,107.18,Melbourne,Peter,Ferguson,3965.66
+10237,23,101.44,NYC,Michael,Frick,2333.12
+10251,28,63.57142857,Newark,William,Brown,1780
+10263,34,108.14,Bridgewater,Julie,King,3676.76
+10275,45,92.83,Nantes,Janine,Labrune,4177.35
+10285,36,113.88,Cambridge,Marta,Hernandez,4099.68
+10299,23,112.93,Helsinki,Matti,Karttunen,2597.39
+10309,41,107.18,Stavern,Jonas,Bergulfsen,4394.38
+10318,46,94.74,Allentown,Kyung,Yu,1358.04
+10329,42,104.67,NYC,Kwai,Yu,1396.14
+10341,41,188.73,Salzburg,Georg,Pipps,7737.93
+10361,20,72.55,Chatswood,Adrian,Huxley,1451
+10375,21,34.91,Nantes,Janine,Labrune,733.11
+10388,42,76.36,New Bedford,Violeta,Benitez,3207.12
+10403,24,101.44,Liverpool,Elizabeth,Devon,2434.56
+10417,66,113.88,Madrid,Diego,Freyre,7516.08
+10103,26,207.87,Stavern,Jonas,Bergulfsen,5404.62
+10112,29,248.59,Lule,Christina,Berglund,7209.11
+10126,38,192.87,Madrid,Mart¡n,Sommer,7329.06
+10140,37,199.3,Burlingame,Juri,Hirano,7374.1
+10150,45,244.3,Singapore,Eric,Natividad,10993.5
+10163,21,231.44,NYC,Maria,Hernandez,4860.24
+10174,34,235.73,South Brisbane,Tony,Calaghan,8014.82
+10183,23,233.59,Philadelphia,Francisca,Cervantes,5372.57
+10194,42,173.58,Lyon,Mary,Saveley,7290.36
+10206,47,192.87,Vancouver,Yoshi,Tannamuri,9064.89
+10215,35,173.58,Burbank,Steve,Thompson,6075.3
+10228,29,222.87,Cambridge,Kyung,Tseng,6463.23
+10245,34,180.01,New Haven,Leslie,Murphy,6120.34
+10258,32,240.02,Minato-ku,Akiko,Shimamura,7680.64
+10270,21,233.59,Chatswood,Adrian,Huxley,1905.39
+10280,34,235.73,Torino,Paolo,Accorti,8014.82
+10291,37,192.87,Boras,Maria,Larsson,7136.19
+10304,47,28.29787234,Versailles,Daniel,Tonini,1330
+10312,48,242.1604167,San Rafael,Valarie,Nelson,11623.7
+10322,40,150.01,Nashua,Valarie,Young,6000.4
+10333,26,115.5,San Francisco,Julie,Murphy,3003
+10347,30,131.49,Melbourne,Peter,Ferguson,3944.7
+10357,32,177.87,San Rafael,Valarie,Nelson,5691.84
+10369,41,41.46341463,Brickhaven,Allen,Nelson,1700
+10381,36,229.3,San Francisco,Julie,Brown,8254.8
+10391,24,100.69,North Sydney,Anna,O'Hara,2416.56
+10411,23,180.01,Montreal,Jean,Fresnisre,4140.23
+10424,50,240.02,Madrid,Diego,Freyre,12001
+10107,39,99.91,NYC,Kwai,Yu,3896.49
+10120,29,96.34,Melbourne,Peter,Ferguson,2793.86
+10134,27,122.51,Paris,Daniel,Da Cunha,3307.77
+10145,37,140.35,Pasadena,Julie,Young,5192.95
+10159,37,135.59,San Francisco,Julie,Brown,5016.83
+10168,27,135.59,Burlingame,Juri,Hirano,3660.93
+10180,42,111.8,Lille,Martine,Rance,4695.6
+10188,38,96.34,Bergen,Veysel,Oeztan,3660.92
+10201,24,126.08,San Francisco,Julie,Murphy,3025.92
+10210,23,130.83,Osaka,Mory,Kentary,3009.09
+10223,47,115.37,Melbourne,Peter,Ferguson,5422.39
+10236,22,129.64,Philadelphia,Rosa,Hernandez,2852.08
+10251,44,130.83,Newark,William,Brown,5756.52
+10263,40,111.8,Bridgewater,Julie,King,4472
+10275,22,132.02,Nantes,Janine,Labrune,2904.44
+10285,47,137.97,Cambridge,Marta,Hernandez,6484.59
+10298,39,96.34,Nantes,Carine,Schmitt,3757.26
+10308,34,118.94,White Plains,Steve,Frick,4043.96
+10318,45,123.7,Allentown,Kyung,Yu,5566.5
+10329,20,158.8,NYC,Kwai,Yu,3176
+10339,40,68.92,Minato-ku,Akiko,Shimamura,2756.8
+10361,26,51.15,Chatswood,Adrian,Huxley,1329.9
+10374,39,135.59,South Brisbane,Tony,Calaghan,5288.01
+10388,50,44.51,New Bedford,Violeta,Benitez,2225.5
+10402,45,129.64,Paris,Dominique,Perrier,5833.8
+10417,45,130.83,Madrid,Diego,Freyre,5887.35
+10107,27,224.65,NYC,Kwai,Yu,6065.55
+10120,46,201.41,Melbourne,Peter,Ferguson,9264.86
+10134,31,226.58,Paris,Daniel,Da Cunha,7023.98
+10145,33,156.86,Pasadena,Julie,Young,5176.38
+10159,22,187.85,San Francisco,Julie,Brown,4132.7
+10168,20,209.15,Burlingame,Juri,Hirano,4183
+10180,41,216.9,Lille,Martine,Rance,8892.9
+10188,45,193.66,Bergen,Veysel,Oeztan,8714.7
+10201,49,164.61,San Francisco,Julie,Murphy,8065.89
+10210,34,180.1,Osaka,Mory,Kentary,6123.4
+10223,49,199.47,Melbourne,Peter,Ferguson,9774.03
+10237,39,180.1,NYC,Michael,Frick,7023.9
+10251,43,164.61,Newark,William,Brown,7078.23
+10263,41,203.34,Bridgewater,Julie,King,8336.94
+10275,36,191.72,Nantes,Janine,Labrune,6901.92
+10285,27,201.41,Cambridge,Marta,Hernandez,5438.07
+10299,29,230.46,Helsinki,Matti,Karttunen,6683.34
+10308,20,228.52,White Plains,Steve,Frick,4570.4
+10318,37,207.22,Allentown,Kyung,Yu,7667.14
+10329,26,225.7,NYC,Kwai,Yu,5868.2
+10339,39,76.67,Minato-ku,Akiko,Shimamura,2990.13
+10362,22,166.55,Burlingame,Juri,Hirano,3664.1
+10374,22,174.29,South Brisbane,Tony,Calaghan,3834.38
+10388,21,86.77,New Bedford,Violeta,Benitez,1822.17
+10403,66,180.1,Liverpool,Elizabeth,Devon,11886.6
+10417,56,164.61,Madrid,Diego,Freyre,9218.16
+10105,50,144.16,Kobenhavn,Jytte,Petersen,7208
+10119,46,108.8,Salzburg,Georg,Pipps,5004.8
+10129,33,133.28,London,Ann,Brown,4398.24
+10143,49,114.24,New Bedford,Wing C,Tam,5597.76
+10155,32,141.44,Helsinki,Matti,Karttunen,4526.08
+10167,44,134.64,Boras,Maria,Larsson,5924.16
+10178,24,145.52,Toulouse,Annette,Roulet,3492.48
+10186,26,148.24,London,Thomas,Hardy,3854.24
+10197,45,118.32,Barcelona,Eduardo,Saavedra,5324.4
+10209,39,133.28,Los Angeles,Michael,Chandler,5197.92
+10222,49,122.4,San Diego,Valarie,Thompson,5997.6
+10248,20,145.52,NYC,Kwai,Yu,2910.4
+10261,27,125.12,Montreal,Jean,Fresnisre,3378.24
+10273,30,116.96,Bruxelles,Catherine,Dewey,7508.8
