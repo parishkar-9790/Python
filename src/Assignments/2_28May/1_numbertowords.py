@@ -11,7 +11,7 @@ def convertOnes():
 def convertTwos():
     # given input 10 11 12 13 14 15 16 17 18 19
     string = inflect.engine().number_to_words(10111213141516171819, group=2)
-    # output [' ', ' 'ten, eleven, tweleve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen]
+    # output [ten, eleven, tweleve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen]
     return string.split(',')
 
 

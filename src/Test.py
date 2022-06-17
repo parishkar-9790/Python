@@ -1,28 +1,26 @@
 import csv
-from email import header
 
-from numpy import record
-with open('D:\\C++\\Python\\src\\python.csv') as f:
-    record = csv.reader(f)
-    header = next(record)
-    print(header, end='\n\n')
-    print('-------------------------------------------------------------------------------------------')
-    for h in header:
-        print(h, end='\t')
-    print()
-    print('-------------------------------------------------------------------------------------------')
-    for x in record:
-        if (int(x[2]) > 500):
-            for y in x:
-                print(y, end='\t')
-        print()
-    print('-------------------------------------------------------------------------------------------')
-    print
 
-evens = (i for i in range(2, 100) if i % 2 == 0)
-sq = [i*i for i in range(2, 50)]
-for i in evens:
-    print(i, end=' ')
-print()
-for i in sq:
-    print(i, end=' ')
+allbooks = [{'bookid': 1000, 'title': 'DBMS', 'price': 465},
+            {'bookid': 1002, 'title': 'PYTHON', 'price': 4365},
+            {'bookid': 10120, 'title': 'heythere', 'price': 41265}]
+
+
+def writebooks():
+    with open('X:\\Python\\src\\python.csv', 'w', newline=' ')as f:
+        writer = csv.writer(f)
+        for x in allbooks:
+            for key, value in x.items():
+                writer.writerow(f'{key},{value}')
+
+
+# def searchbook(price):
+#     try:
+#         if price <= 0:
+#             raise Exception('invalid price')
+#         else:
+#             for book in allbooks:
+
+#     except Exception as e:
+#         for book in allbooks:
+#             if book['price'] < price:

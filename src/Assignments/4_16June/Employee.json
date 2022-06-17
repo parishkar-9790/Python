@@ -1,0 +1,34 @@
+{
+    "empDetails": [
+        {
+            "eid": 100,
+            "ename": "sfr",
+            "age": 25
+        },
+        {
+            "eid": 101,
+            "ename": "Vijay",
+            "age": 17
+        },
+        {
+            "eid": 102,
+            "ename": "Karan",
+            "age": 28
+        },
+        {
+            "eid": 103,
+            "ename": "Rahul",
+            "age": 12
+        },
+        {
+            "eid": 104,
+            "ename": "adam",
+            "age": 52
+        },
+        {
+            "eid": 105,
+            "ename": "eve",
+            "age": 15
+        }
+    ]
+}
