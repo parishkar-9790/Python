@@ -6,6 +6,7 @@
 # ...............................................................
 from collections import deque
 
+
 # Queue class
 
 
@@ -17,10 +18,14 @@ class Queue:
         self.buffer.append(val)
 
     def dequeue(self):
-        return self.buffer.popleft()
+        if self.isempty():
+            print("Queue is Empty can't pop element") 
+        else:   
+            print("Element Dequeued-> {}".format(self.buffer.popleft()))
 
     def peek(self):
-        return self.buffer[-1]
+        if not self.isempty():
+            print(f'front -> {self.buffer[0]} and rear -> {self.buffer[-1]}')
 
     def isempty(self):
         return len(self.buffer) == 0
@@ -29,7 +34,12 @@ class Queue:
         return len(self.buffer)
 
     def showqueue(self):
-        print(self.buffer)
+        if self.size()>0:
+            print('front->',end=' ')        
+            for i in self.buffer:
+                print(i,end='  ')
+            print('<- rear',end=' ')
+            print()
 
 
 # main function
@@ -37,14 +47,14 @@ if __name__ == '__main__':
     fifo = Queue()
     while(1):
         choice = input(
-            "enter your choice 1.Enqueue 2.Dequeue 3.Peek 4.Isempty 5.size 6.Display 7.Exit")
+            "enter your choice 1.Enqueue 2.Dequeue 3.Peek 4.Isempty 5.size 6.Display 7.Exit--> ")
         if choice == '1':
-            y = input("Enter the value to Enqueue")
+            y = input("Enter the value to Enqueue-> ")
             fifo.enqueue(y)
         elif choice == '2':
-            print("Dequeued: "+fifo.dequeue())
+            fifo.dequeue()
         elif choice == '3':
-            print("Top elemet is "+fifo.peek())
+            fifo.peek()
         elif choice == '4':
             print(fifo.isempty())
         elif choice == '5':

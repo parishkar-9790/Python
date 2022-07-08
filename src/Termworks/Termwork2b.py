@@ -26,18 +26,20 @@ def coursedetailes(course):
     cc = input("Enter the course code of the subject : ")
     if cc in course:
         print(
-            f"Course code: {cc} Course Name:{course[cc][0]} Faculty Name : {course[cc][1]} Number of Registrations:{course[cc][2]} ")
+            f"Course code: {cc}  Course Name:{course[cc][0]}  Faculty Name : {course[cc][1]}  Number of Registrations: {course[cc][2]} ")
 
 
 def display(course):
-    print(course)
+    for cc in course:
+        print(
+            f"Course code: {cc}  Course Name:{course[cc][0]}  Faculty Name : {course[cc][1]}  Number of Registrations: {course[cc][2]} ")
 
 
 if __name__ == '__main__':
-    course = {'18CSL46': ['python', 'sfr', 200], '18cs36': ['web', 'PVT', 30]}
+    course = {'18CSL46': ['python', 'sfr', 200], '18CSL36': ['web', 'PVT', 30]}
     while True:
         x = int(input(
-            "\nMenu\n1.Show Course Details using Course code \n2.Course with highest number of registrations \n3.Add course\n4.Show all course  \nEnter your choice "))
+            "\nMenu\n1.Show Course Details using Course code \n2.Course with highest number of registrations \n3.Add course\n4.Show all course  \nEnter your choice-> "))
         if x == 1:
             coursedetailes(course)
         elif x == 2:

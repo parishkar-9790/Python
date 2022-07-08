@@ -15,7 +15,7 @@ if __name__ == '__main__':
         record=list(rs)
         while True:
             x = input(
-                "Enter Choice 1.Show All data  2.Show Data in Purchase Range 3.Plot Graph--> ")
+                "\nEnter Choice 1.Show All data  2.Show Data in Purchase Range 3.Plot Graph--> ")
             if x == '1':
                 print('-'*100)
                 print('\nSales data-->\n\n',tabulate(record, headers=header), end='\n\n')
