@@ -32,7 +32,7 @@ def coursedetailes(course):
 def display(course):
     for cc in course:
         print(
-            f"Course code: {cc}  Course Name:{course[cc][0]}  Faculty Name : {course[cc][1]}  Number of Registrations: {course[cc][2]} ")
+            f"Course code: {cc}  Course Name: {course[cc][0]}  Faculty Name : {course[cc][1]}  Number of Registrations: {course[cc][2]} ")
 
 
 if __name__ == '__main__':
