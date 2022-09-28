@@ -33,7 +33,7 @@ if __name__ == '__main__':
     mul.grid(row=4,column=0)
     div=Button(rootWindow, text="/",padx=40 ,pady=10,command=lambda x = '/': operate(x) )
     div.grid(row=4,column=1)
-    Clear=Button(rootWindow, text="Clear",padx=40 ,pady=10,command=lambda x = 'clear':operate(x)  )
+    Clear=Button(rootWindow, text="Clear",padx=40 ,pady=10,command=lambda x = 'clear':operate(x))
     Clear.grid(row=5,column=1)
     rootWindow.mainloop()
     
